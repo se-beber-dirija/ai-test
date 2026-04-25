@@ -1,16 +1,16 @@
+#header-box-direita {
+    width: 100%;
+
+    #botao-titulo {
+        @include flex-center(row, space-between);
+        background-color: #74a1ed;
+    }
+}
+
 #box-login {
     @include flex-center(column, space-evenly);
     width: 75%;
     height: 55%;
-
-    #header-box-direita {
-        width: 100%;
-
-        #botao-titulo {
-            @include flex-center(row, space-between);
-            background-color: #74a1ed;
-        }
-    }
 
     #inputs {
         @include flex-center(column, space-around);
@@ -81,6 +81,26 @@
         height: 100%;
         background-color: #5095f0;
     }
+}
+
+.campos-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20%;
+}
+
+.fonte-cor {
+    color: #333;
+}
+
+.labels-margin {
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.align-self-inputs {
+    align-self: center;
 }
 
 #lembre-esqueceu, #esqueci-lembrar {

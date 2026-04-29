@@ -118,3 +118,26 @@ body {
 .bold {
   font-weight: var(--peso-fonte);
 }
+
+/* ===== Responsive ===== */
+
+@media (max-width: 1024px) {
+  #box-direita {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #box-direita {
+    width: 75%;
+    height: auto;
+    min-height: 65%;
+  }
+}
+
+@media (max-width: 480px) {
+  #box-direita {
+    width: 92%;
+    border-radius: 8px;
+  }
+}

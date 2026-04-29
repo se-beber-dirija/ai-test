@@ -201,3 +201,60 @@
 #botao-voltar:hover {
   background-color: #adaeaf;
 }
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  #cadastro {
+    width: 90%;
+    height: auto;
+    min-height: 65%;
+  }
+
+  #box-inputs {
+    width: 95%;
+    height: auto;
+    gap: 10px;
+  }
+
+  #botao-voltar {
+    width: 15%;
+    min-width: 40px;
+  }
+
+  #box-botoes {
+    width: 92%;
+  }
+
+  .campos-inputs label {
+    width: auto;
+  }
+
+  #header-box-direita #botao-titulo h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #cadastro {
+    width: 94%;
+  }
+
+  #box-inputs {
+    width: 100%;
+  }
+
+  #botao-voltar {
+    width: 20%;
+    min-width: 36px;
+  }
+
+  .inputs {
+    height: 38px;
+  }
+
+  #box-botoes {
+    width: 95%;
+    margin-top: 8px;
+  }
+}

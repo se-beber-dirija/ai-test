@@ -157,3 +157,57 @@
   justify-content: space-around;
   width: 100%;
 }
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  #box-login {
+    width: 85%;
+    height: auto;
+    min-height: 50%;
+    gap: 15px;
+  }
+
+  #botao-voltar {
+    width: 15%;
+    min-width: 40px;
+  }
+
+  #box-botoes {
+    width: 90%;
+  }
+
+  #header-box-direita #botao-titulo h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #box-login {
+    width: 90%;
+  }
+
+  #botao-voltar {
+    width: 20%;
+    min-width: 36px;
+  }
+
+  .inputs {
+    height: 38px;
+  }
+
+  #box-botoes {
+    width: 92%;
+    margin-top: 10px;
+  }
+
+  #lembre-esqueceu, #esqueci-lembrar {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  #lembre-esqueceu h1, #esqueci-lembrar h1 {
+    font-size: 13px !important;
+  }
+}
